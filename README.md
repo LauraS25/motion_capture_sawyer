@@ -9,6 +9,10 @@ The work of https://github.com/qualisys/qualisys_python_sdk helped me a lot to h
 -qtm librairy
 -asyncio library 
 
+To install qtm :
+sudo apt-get install python3-pip 
+python3 -m pip install qtm
+
 ## Model I used on QTM
 4 markers :
 - shoulder
