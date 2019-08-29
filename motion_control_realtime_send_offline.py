@@ -99,7 +99,7 @@ def sawyer_motion_control_final():
 		frame_value = cur_sheet.cell(row,col_frame).value
 		print frame_value
 
-		wrist_value = -(hand_value_excel-wrist_value_excel_Z)*limit_pos_j5/50 #38.3
+		wrist_value = -(hand_value_excel-wrist_value_excel_Z)*limit_pos_j5/50 
 		#print 'wrist_value_excel_Y',wrist_value_excel_Y
 		#print 'elbow_value_excel',elbow_value_excel
 		elbow_value = (wrist_value_excel_Y-elbow_value_excel)*limit_pos_j4/195.6
