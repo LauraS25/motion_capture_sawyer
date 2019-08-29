@@ -102,7 +102,7 @@ def sawyer_motion_control_final():
 		wrist_value = -(hand_value_excel-wrist_value_excel_Z)*limit_pos_j5/50 
 		#print 'wrist_value_excel_Y',wrist_value_excel_Y
 		#print 'elbow_value_excel',elbow_value_excel
-		elbow_value = (wrist_value_excel_Y-elbow_value_excel)*limit_pos_j4/195.6
+		elbow_value = (wrist_value_excel_Y-elbow_value_excel)*limit_pos_j4/195
 		#print 'elbow_value',elbow_value
 				
 		list_of_wrist_position.append(wrist_value)
